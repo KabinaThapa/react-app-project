@@ -1,4 +1,113 @@
-header{
-  color:blue;
+div{
+  background-color: black;
+  justify-content: center;
+  margin:8rem;
+  overflow: hidden;
+}
   
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+}
+h2{
+  color:aliceblue;
+}
+nav h2{
+  padding-left: 2rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 20rem;
+  color: gray;
+  
+}
+nav ul li{
+  padding-left: 10px;
+  float: right;
+  color: gray;
+}
+a{
+  color:blue;
+}
+a:hover{
+  color:blue;
+}
+  
+  h3{
+    color: aliceblue;
+  }
+
+nav{
+ display: flex;
+ background-color: black;
+  border:solid;
+  margin-bottom: 10px;
+  height:18vh;
+  
+  align-items: center;
+  
+}
+header{
+ 
+  border:solid;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+  
+  align-items: center;
+  
+}
+main{
+  align-items: center;
+  border:solid;
+  
+  
+  margin-bottom: 10px;
+ 
+  
+}
+main h2{
+  text-align: center;
+}
+section h2{
+  text-align: center;
+}
+aside h2{
+  text-align: center;
+}
+footer h2{
+  text-align: center;
+}
+
+section{
+  align-items: center;
+  border:solid;
+  
+  margin-bottom: 10px;
+  
+  
+}
+article{
+  align-items: center;
+  border:solid;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+aside{
+  align-items: center;
+  border:solid;
+  
+  margin-bottom: 10px;
+}
+footer{
+  background-color: black;
+  align-items: center;
+  border:solid;
+  
+  margin-bottom: 10px;
 }
