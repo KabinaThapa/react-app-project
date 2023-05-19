@@ -1,14 +1,32 @@
-div{
+body,html{
+  margin: 0;
+  
+}
+.bs{
+  
   background-color: black;
   justify-content: center;
-  margin:8rem;
   overflow: hidden;
-}
   
+}
+.ms{
+  display: flex;
+  
+  padding:2rem;
+  border:none; 
+  
+}
+.as{
+  display: flex;
+  border:none;
+  padding: 2rem;
+}
 
 p{
   font-family: 'Courier New', Courier, monospace;
   color: aliceblue;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 h2{
   color:aliceblue;
@@ -28,8 +46,9 @@ nav ul li{
   float: right;
   color: gray;
 }
-a{
-  color:blue;
+nav a{
+  list-style: underline;
+  color: gainsboro;
 }
 a:hover{
   color:blue;
@@ -44,7 +63,7 @@ nav{
  background-color: black;
   border:solid;
   margin-bottom: 10px;
-  height:18vh;
+ 
   
   align-items: center;
   
@@ -62,11 +81,12 @@ header{
   
 }
 main{
-  align-items: center;
+  
   border:solid;
-  
-  
+  align-items: center;
+  margin-right: 2rem;
   margin-bottom: 10px;
+  
  
   
 }
@@ -94,14 +114,17 @@ section{
 article{
   align-items: center;
   border:solid;
-  display:flex;
-  justify-content: center;
+  
   margin-bottom: 10px;
+}
+article h2{
+  text-align: center;
 }
 aside{
   align-items: center;
   border:solid;
-  
+  width:40rem;
+  margin-left:2rem;
   margin-bottom: 10px;
 }
 footer{
