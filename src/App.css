@@ -36,17 +36,21 @@ h2{
 }
 .nav{
   display:flex;
+  
 }
 ul{
   list-style: none;
-  display:flex;
-  justify-content: center;
+  float: right;
   margin: 0;
-  padding: 0; 
+  padding: 0;
+  display: flex;
+  margin-left:50rem;
+  
   
 }
 ul li{
   padding-left: 3rem;
+  
   
 }
  nav ul li a{
