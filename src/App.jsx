@@ -4,17 +4,15 @@ function App(){
   return(
     <>
     <div class="bs">
-    <nav>
+    <nav class="nav">
       <h2>Navbar</h2>
-      <ul>
-        
-        <li> <a href="#"> Home</a></li>
+      
+      <ul class="ul">
+        <li> <a href="#"> Home </a></li>
         <li> <a href="#"> About</a></li>
         <li> <a href="#"> Contact</a></li>
-      
-         
       </ul>
-
+      
     </nav>
     <header>
       <h2> Header</h2>

@@ -31,30 +31,35 @@ p{
 h2{
   color:aliceblue;
 }
-nav h2{
+.nav h2{
   padding-left: 2rem;
 }
-nav ul {
+.nav{
+  display:flex;
+}
+ul{
   list-style: none;
-  display: flex;
-  margin-left: 20rem;
+  display:flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0; 
+  
+}
+ul li{
+  padding-left: 3rem;
+  
+}
+ nav ul li a{
+  
+  color:white;
+  
+}
+ul li a:hover{
+  font-size:1.1rem;
   color: gray;
   
 }
-nav ul li{
-  padding-left: 10px;
-  float: right;
-  color: gray;
-}
-nav a{
-  list-style: underline;
-  color: gainsboro;
-}
-a:hover{
-  color:blue;
-}
-  
-  h3{
+h3{
     color: aliceblue;
   }
 
